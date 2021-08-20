@@ -9,6 +9,7 @@
 body {
     font-family: Alegreya Sans, sans-serif;
     font-weight: 300;
+    color: #262729;
 }
 
 /* headings and logo */
@@ -22,4 +23,35 @@ h1, h2 {
 #logo {
     font-size: 400%;
     float: left;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 130%;
+    letter-spacing: 1px;
+    float: right;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #262729;
+}
+
+.active {
+    border-bottom: 1px solid #262729;
 }
