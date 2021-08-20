@@ -12,6 +12,7 @@ The basic functions of the website that the client wants are:
 
 # Features
 * Navigation
+    * Featured at the top right of the page is the site logo that when clicked will bring the user back to the Home page
     * Featured at the top right of the page are the navigation links: Home, Reviews, Contact which link to separate pages.
     * The navigation clearly makes the different sections of information easy to find and point to what the client is looking for. 
 
