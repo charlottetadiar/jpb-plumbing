@@ -7,6 +7,19 @@
 }
 
 body {
-    font-family: Alumni Sans, sans-serif;
+    font-family: Alegreya Sans, sans-serif;
     font-weight: 300;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    color: #0336ad;
+    font-family: Alumni Sans, sans-serif;
+    letter-spacing: 1px;
+}
+
+#logo {
+    font-size: 400%;
+    float: left;
 }
