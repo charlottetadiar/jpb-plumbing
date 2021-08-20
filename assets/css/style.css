@@ -14,7 +14,7 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1 {
     color: #0336ad;
     font-family: Alumni Sans, sans-serif;
     letter-spacing: 1px;
@@ -23,6 +23,8 @@ h1, h2 {
 #logo {
     font-size: 400%;
     float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 /* navigation links */
@@ -54,4 +56,53 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #262729;
+}
+
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/Bathroom-hero-image.jpg') no-repeat center center;
+    opacity: 0.7;
+    overflow: hidden;
+}
+
+/* services section */
+
+h2 {
+    color: #ffffff;
+    font-family: Alumni Sans, sans-serif;
+    letter-spacing: 1px;
+    background-color: #0336ad;
+    text-align: center;
+    font-size: 250%;
+    padding: 25px;
+}
+
+#repair {
+    height: 300px;
+    width: 25%;
+    background: url('../images/Repair-image.jpg') no-repeat center center;
+    float: left;
+    overflow: hidden;
+    margin: 0px 230px 0px 0px;
+}
+
+#boiler {
+    height: 300px;
+    width: 25%;
+    background: url('../images/Boiler-image.jpg') no-repeat center center;
+    float: left;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#bathroom {
+    height: 300px;
+    width: 25%;
+    background: url('../images/Bathroom-image.jpg') no-repeat center center;
+    float: right;
+    overflow: hidden;
+    margin: 0px 0px 0px 230px;
 }
