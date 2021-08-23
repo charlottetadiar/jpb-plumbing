@@ -80,26 +80,24 @@ h2 {
     padding: 25px;
 }
 
-#repair {
-    height: 300px;
+.column {
     float: left;
+    width: 33.26%;
+    height: 300px
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column.middle {
+    margin-right: 2px;
+    margin-left: 2px;
 }
 
 .services {
-    overflow: hidden;
-}
-
-#boiler {
-    height: 300px;
-    float: left;
-}
-
-#bathroom {
-    height: 300px;
-    float: right;
-}
-
-#repair-header {
     color: #ffffff;
     font-family: Alumni Sans, sans-serif;
     letter-spacing: 1px;
@@ -109,22 +107,24 @@ h2 {
     padding: 25px;
 }
 
-#boiler-header {
-    color: #ffffff;
-    font-family: Alumni Sans, sans-serif;
-    letter-spacing: 1px;
-    background-color: #0336ad;
-    text-align: center;
-    font-size: 250%;
-    padding: 25px;
+.img_wrap {
+    position: relative;
 }
 
-#bathroom-header {
+.repair_desc {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0336ad;
     color: #ffffff;
-    font-family: Alumni Sans, sans-serif;
-    letter-spacing: 1px;
-    background-color: #0336ad;
-    text-align: center;
-    font-size: 250%;
-    padding: 25px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+
+.img_wrap:hover .repair_desc {
+    visibility: visible;
+    opacity: 1;
 }
